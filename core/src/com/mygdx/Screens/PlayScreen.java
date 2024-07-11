@@ -182,7 +182,7 @@ public class PlayScreen implements Screen {
         }
         if((Math.abs(h2.b2body.getPosition().x - tank2.b2body.getPosition().x)*100) < 5 &&
                 Math.abs((h2.b2body.getPosition().y - tank2.b2body.getPosition().y)*100) < 5){
-            health2 = 200;
+            health2 = 100;
             hud.setHealth2();
             h2.b2body.setTransform(-100,-100,0);
             h2.b2body.setActive(false);
